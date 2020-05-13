@@ -42,3 +42,12 @@ padding: 20px;
     text-align: left;
     
 }
+
+
+@media only screen and (max-width: 768px) {
+    .MVflex{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+}

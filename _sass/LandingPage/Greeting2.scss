@@ -29,3 +29,11 @@ font-family: Gordita Light;
 .GreetingRight>img{
     width:150px;
 }
+
+@media only screen and (max-width: 768px) {
+    .GreetingSub{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+}
