@@ -172,10 +172,17 @@ height: 40px
   .ContactBoxInfo{
       width:100%;
   }
-  .ContactBoxInfo{
-      
+  .ContactBoxForm{
+      width: 100%;
 
   }
+  .first input{
+    width:100%;
+    min-width: 200px;
+}
+.second input{
+    min-width: 200px;
+}
   .formm{
       flex-direction: column;
   }
