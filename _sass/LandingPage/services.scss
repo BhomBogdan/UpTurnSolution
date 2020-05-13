@@ -6,7 +6,7 @@
 .services{
   margin:20px;
   background-color:#fff;
-	width:250px;
+	width:300px;
 	box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
 	border-radius: 5px;
 	text-align: center;
@@ -20,6 +20,23 @@
 		align-items: baseline;
 		align-content: space-around;
 }
+.linkS{
+	vertical-align: bottom;
+		font-size:16px;
+		background:  #8DB1AB;
+		border-radius: 9px;
+		padding:  4px 10px;
+		margin-bottom: 10px;
+		color: white;
+		display:  inline-block;
+		text-align:  center;
+		font-family:Gordita Medium;
+
+}
+.linkS a{
+	
+	font-size: 10px;
+}
 .services a{
 	
 	margin-top: 10px;
@@ -28,24 +45,48 @@
 	font-family:Gordita Medium;
 }
 .services p{
-	font-size:14px;
+	font-size:12px;
+	min-height: 150px;
 	padding:10px;
 	text-align: center;
 	font-family:Gordita Light;
 }
 .imgS{
 	margin-bottom:20px;
-	width:100%;
-	height:140px;
+
 	
-	background-color: #8BC6EC; background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 	border-radius: 5px 5px 0px 0px;
+}
+.imgS img{
+	margin-top: 20px;
+	width: 80px;
+
+}
+.linkS{
+	
 }
 
 @media only screen and (max-width: 800px) {
 	.services{
 		width: 100%;
 	}
-
+	.group{
+		width: 100%;
+	}
+	.services p{
+		min-height: 0px;}
 
 }
+
+
+@media only screen and (max-width: 1024px) {
+.services{
+	width:500px}
+
+}
+
+@media only screen and (max-width: 1324px) {
+	.services{
+		width:600px}
+	
+	}

@@ -1,0 +1,31 @@
+.GreetingM{
+width: 100%;
+}
+.GreetingLeft {
+font-family: Gordita Light;
+        margin: 20px;
+        padding: 10px;
+    
+}
+.GreetingLeft>p>span{
+    font-family: Gordita Medium;
+}
+.GreetingLeft>p{
+
+}
+.GreetingSub{
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 70em;
+    	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+
+.GreetingRight>img{
+    width:150px;
+}
