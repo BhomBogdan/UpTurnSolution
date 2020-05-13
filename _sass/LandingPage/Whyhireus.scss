@@ -1,0 +1,84 @@
+
+    
+    .despre a{
+      font-family: 'Assistant', sans-serif;
+    }
+    .img{
+
+        width:400px;
+        height: 300px;
+        background-color: #8BC6EC; background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    }
+    .container{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .despre{
+    background-color: white;
+    margin-top:30px;
+      width:100%;
+    }
+    
+    .despre_1 h2{
+        font-family: Gordita medium;
+      color: #516E6F;
+      font-size:20px;
+    }
+    .despre_1 h1{
+      font-size:15px;
+    }
+    
+    .despre_1{
+      text-align:center;
+      
+    }
+    .despre_2{
+        height: 100%;
+      border-radius:20px;
+
+      height:100%;
+      width:600px;
+
+    
+    }
+    .despre_2 p{
+        font-family: Gordita light;
+      font-size:14px;
+      color:Black;
+      text-align:left;
+      font-weight: normal;
+    }
+    .despre_2 h2{
+        margin-left:40px;
+    font-size:30px;
+      text-align:left;
+      font-family: Gordita medium;
+    }
+    .container{
+      
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+    .despre_1 img{
+      width:200px;
+      margin:0px 0px 0px 0px;
+      border-radius:50%;
+ 
+
+    }
+    
+    
+    
+    @media screen and (max-width: 600px) {
+      .despre_2 {
+        width:90%;
+      }
+    
+      .container {
+        flex-direction: column;
+      }
+    }

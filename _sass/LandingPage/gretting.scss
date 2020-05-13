@@ -1,0 +1,46 @@
+.Gradient{
+  width: 100%;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.ContainerG{
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 40px;;
+  position: relative;
+  width:100%;
+ 
+
+}
+.GreetingText {
+  padding-bottom: 20px;;
+  margin:0 auto;
+  width:50%;
+  text-align: center;
+}
+.buttonG{
+  font-size:16px;
+  background:  #ff9900;
+  border-radius: 11px;
+  padding:  10px 35px;
+  color:  #ffffff;
+  display:  inline-block;
+  text-align:  center;
+  font-family:Gordita Medium;
+}
+.GreetingText a{
+  font-family:Gordita Medium;
+  font-size: 30px;
+  text-align: center;
+}
+.GreetingText p{
+  font-family:Gordita Light;
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  .GreetingText {width: 100%;
+  }
+
+
+}

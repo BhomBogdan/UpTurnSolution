@@ -1,0 +1,118 @@
+.general{
+
+
+overflow: hidden;
+}
+.brand{
+  
+  display: block;
+
+ margin-left:64px;
+}
+.brand a {
+  padding:20px;
+}
+.Navbar {
+  
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#fff;
+  display: flex;
+
+  font-family: sans-serif;
+  
+}
+.brand a{
+  color:black;
+  font-family:Gordita Medium;
+
+
+
+font-size: 18px;
+
+text-decoration: none;
+}
+
+.NavbarMenu a{
+  padding: 10px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  font-family:Gordita Medium;
+  color: #646f79;
+
+  margin:10px;
+  width:100%;
+}
+
+.Navbar__Items {
+  display: flex;
+
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+  margin-right:64px;
+}
+.Navbar__Link{
+  display: block;
+  
+}
+.Navbar__Link a{
+  
+  text-decoration: none;
+  font-family:Gordita Medium;
+  font-size: 15px;
+}
+.Navbar__Link-toggle {
+  display: none;
+}
+.Navbar__Items{
+  height:100%;
+  overflow: hidden;
+}
+.menuDraw{
+  
+  width:16px;
+  margin:2px;
+  border-radius: 3px;
+  background-color: #646f79;
+  height:4px;
+}
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    
+    flex-direction: column;
+  }
+.sandwich{
+ padding-right:20px;
+ 
+  }
+.Navbar__Items {
+  
+    display:none;
+  }
+.brand{
+  margin:0;
+
+}
+.Navbar__Items--right {
+    margin-left:0;
+  }
+.Navbar__Items {
+  width:100%;
+}
+  .NavbarMenu a:hover{
+  }
+    
+.Navbar__ToggleShow {
+    display: flex;
+  }
+  
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   } 
+}
