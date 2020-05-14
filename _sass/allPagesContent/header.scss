@@ -1,3 +1,7 @@
+.navbarTop{
+  width: 100%;
+  background-color:white;
+}
 .general{
 
 
@@ -13,7 +17,9 @@ overflow: hidden;
   padding:20px;
 }
 .Navbar {
-  
+  margin:0 auto;
+  max-width: calc(100% - 5em);
+  width: 90em;
   padding-top:10px;
   padding-bottom:10px;
   background-color:#fff;
@@ -51,7 +57,7 @@ text-decoration: none;
 
 .Navbar__Items--right {
   margin-left:auto;
-  margin-right:64px;
+
 }
 .Navbar__Link{
   display: block;

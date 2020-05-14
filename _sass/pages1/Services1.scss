@@ -1,8 +1,129 @@
 .ContainerS{
-    font-family: Gordita medium;
+width: 100%;
+padding: 50px;
+color : #646f79;
+background-color: white;
+}
+
+.flexContainerS{
+    flex: 1;
+    font-family: Gordita Regular;
     margin:0 auto;
     max-width: calc(100% - 5em);
-    width: 70em;
-    margin-bottom: 100px;
-    background-color: red;
+    width:70em;
+    
+
+    display: flex;
+
+    justify-content: center;
+
+}
+.ContainerSL{
+    
+    flex: 1;
+display: flex;
+flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin:20px;
+    max-width: 600px;
+}
+.ContainerSL a2{
+    color:black;
+    font-family: Gordita medium;
+    font-size: 30px;
+}
+.ContainerSL p{
+    max-width: 450px;
+    font-size: 16px;
+    font-family: Gordita light;
+    font-weight: bold;
+}
+.ContainerSR{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+.imgservice>img{
+    max-width:200px;
+    min-width: 200px;
+}
+
+
+
+.flexContainerS2{
+    padding: 20px;
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width:70em;
+    margin-bottom: 60px;
+    margin-top:60px;
+    font-family: Gordita light;
+}
+
+.buttonC{
+    font-size:18px;
+    max-width: 180px;
+    background:  #ff9900;
+    border-radius: 11px;
+    padding:  10px 10px;
+    color:  #ffffff;
+    display:  inline-block;
+    text-align:  center;
+    font-family:Gordita Medium;
+  }
+
+.ContainerSL2 p{
+    color:#646f79;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+//Third section
+
+.MoreInfoS2{
+    width: 100%;
+padding: 50px;
+color : #646f79;
+background-color: white;
+}
+.flexContainerS3{
+    flex: 1;
+    font-family: Gordita Regular;
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width:70em;
+    
+
+    display: flex;
+
+    justify-content: center;
+}
+.ContainerSL3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    min-width: 300px;
+}
+.ContainerSL3>img{
+    max-width:200px;
+    min-width: 200px;
+}
+.ContainerSR3{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin:20px;
+        max-width: 600px;
+}
+.ContainerSR3 a1{
+    font-size:20px;
+    font-family: Gordita medium;
 }
