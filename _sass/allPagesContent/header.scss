@@ -1,124 +1,123 @@
-.navbarTop{
+.navbarTop {
   width: 100%;
-  background-color:white;
+  background-color: white;
 }
-.general{
-
-
-overflow: hidden;
+.general {
+  overflow: hidden;
 }
-.brand{
-  
+.brand {
   display: block;
 
- margin-left:64px;
+  margin-left: 64px;
 }
 .brand a {
-  padding:20px;
+  padding: 20px;
 }
 .Navbar {
-  margin:0 auto;
+  margin: 0 auto;
   max-width: calc(100% - 5em);
   width: 90em;
-  padding-top:10px;
-  padding-bottom:10px;
-  background-color:#fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
   display: flex;
-
   font-family: sans-serif;
-  
 }
-.brand a{
-  color:black;
-  font-family:Gordita Medium;
-
-
-
-font-size: 18px;
-
-text-decoration: none;
+.brand a {
+  color: black;
+  font-family: Gordita Medium;
+  font-size: 18px;
+  text-decoration: none;
 }
-
-.NavbarMenu a{
+.NavbarMenu a {
   padding: 10px 10px;
   font-size: 15px;
   text-decoration: none;
-  font-family:Gordita Medium;
+  font-family: Gordita Medium;
   color: #646f79;
 
-  margin:10px;
-  width:100%;
+  margin: 10px;
+  width: 100%;
 }
-
+.NavbarMenu a:hover{
+  background-color:#f5f5f5;
+border-radius: 4px;
+}
 .Navbar__Items {
   display: flex;
+}
+#Davai{
 
 }
 
 .Navbar__Items--right {
-  margin-left:auto;
+  margin-left: auto;
+}
+.Navbar__Link {
+  padding:10px;
+  display: block;
 
 }
-.Navbar__Link{
-  display: block;
-  
-}
-.Navbar__Link a{
-  
+.Navbar__Link a {
   text-decoration: none;
-  font-family:Gordita Medium;
+  font-family: Gordita Medium;
   font-size: 15px;
+}
+.show{
+  border-bottom: none;
+}
+.hide{
+  border-bottom: 2px solid #646f79;
 }
 .Navbar__Link-toggle {
   display: none;
 }
-.Navbar__Items{
-  height:100%;
+.Navbar__Items {
+  height: 100%;
   overflow: hidden;
 }
-.menuDraw{
-  
-  width:16px;
-  margin:2px;
+.menuDraw {
+  width: 16px;
+  margin: 2px;
   border-radius: 3px;
   background-color: #646f79;
-  height:4px;
+  height: 4px;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 868px) {
   .Navbar__Items,
   .Navbar {
-    
     flex-direction: column;
   }
-.sandwich{
- padding-right:20px;
- 
+  .sandwich {
+    padding-right: 20px;
   }
-.Navbar__Items {
-  
-    display:none;
+  .Navbar__Items {
+    display: none;
   }
-.brand{
-  margin:0;
+  .brand {
+    margin: 0;
+  }
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+  .Navbar__Items {
+    width: 100%;
+  }
+  .NavbarMenu a:hover {
+  }
 
-}
-.Navbar__Items--right {
-    margin-left:0;
-  }
-.Navbar__Items {
-  width:100%;
-}
-  .NavbarMenu a:hover{
-  }
-    
-.Navbar__ToggleShow {
+  .Navbar__ToggleShow {
     display: flex;
   }
-  
-.Navbar__Link-toggle {
+  .Navbar__Link-toggle {
     align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;
-   } 
+    
+  }
+  #Davai{
+    border-bottom:none;
+  }
 }

@@ -1,6 +1,6 @@
 <div class="navbarTop">
 <div class="Navbar">
-  <div class="Navbar__Link brand">
+  <div class="Navbar__Link brand toggle border show" id="borderr">
     <a href="www.google.com">  UpTurn Sol. </a>
     </div>
    <div class="Navbar__Link Navbar__Link-toggle sandwich">
@@ -11,16 +11,16 @@
 
  <div class="Navbar__Items Navbar__Items--right">
    <div class="Navbar__Link NavbarMenu">
-    <a href="www.google.com">Home</a>
+    <a href="{{ site.baseurl }}/"">Home</a>
    </div>
    <div class="Navbar__Link NavbarMenu">
-    <a href="www.google.com">About US</a>
+    <a href="{{ site.baseurl }}/">About US</a>
    </div>
    <div class="Navbar__Link NavbarMenu">
-    <a href="www.google.com">Services</a>
+    <a href="{{ site.baseurl }}/pages/Services1">Services</a>
    </div>
    <div class="Navbar__Link NavbarMenu">
-    <a href="www.google.com">Contact Us</a>
+    <a href="{{ site.baseurl }}/pages/Contact">Contact Us</a>
    </div>
  </div>
 </div>
@@ -29,11 +29,28 @@
 <script>
 
   function classToggle() {
-    const navs = document.querySelectorAll('.Navbar__Items')
+    const navs = document.querySelectorAll('.Navbar__Items');
     
     navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+
   }
   
+  function classToggleBorder(){
+    let tag = document.getElementById("borderr");
+    if (new Set(tag.classList).has('show')){
+    tag.classList.remove('show');
+    tag.classList.add('hide');}
+    else{
+    tag.classList.add('show');
+    tag.classList.remove('hide');}
+
+  }
+  function callboth(){
+    classToggle();
+    classToggleBorder();
+  }
   document.querySelector('.Navbar__Link-toggle')
-    .addEventListener('click', classToggle);
+    .addEventListener('click', callboth);
+
+    
 </script>

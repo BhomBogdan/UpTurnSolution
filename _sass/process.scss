@@ -1,0 +1,29 @@
+.flexbbutton{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-between;
+    margin:20px;
+
+}
+.buttonselect{
+    background-color: goldenrod;
+   padding: 40px;
+}
+.panel{
+
+    text-align: center;
+}
+
+.displaynone{
+    display: none;
+}
+
+.displayblock{
+    display: block;
+}
+#one{
+    cursor: pointer;
+}

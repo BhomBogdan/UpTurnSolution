@@ -1,0 +1,38 @@
+<div>
+    <div class="flexbbutton">
+    
+        <div class="buttonselect" id="one" value="1">1</div><div class="buttonselect" id="two" value="2">2</div><div class="buttonselect" id="three" value="3">3</div>
+    </div>
+    <div class="list2">
+        <div class="panel displayblock">
+        <h1>asdone</h1>
+        <p>asdfasdfasdfsdfas</p>
+    </div>
+    <div class="panel displaynone">
+        <h1>asdtwo</h1>
+        <p>asdfasdfasdfsdfas</p>
+    </div>
+    <div class="panel displaynone">
+        <h1>asdthree</h1>
+        <p>asdfasdfasdfsdfas</p>
+    </div>
+    </div>
+</div>
+
+
+<script>
+function first(){
+    let select1 = document.querySelectorAll(".list2");
+    if (new Set(select1.classList).has('displaynone')){
+        tag.classList.remove('displaynone');
+        tag.classList.add('displayblock');}
+    else{
+    tag.classList.add('displaynone');
+    tag.classList.remove('displayblock');}
+}
+
+
+
+document.getElementById('one')
+    .addEventListener('click', first);
+</script>
