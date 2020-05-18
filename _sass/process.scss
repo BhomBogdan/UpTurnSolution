@@ -2,23 +2,65 @@
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-    align-content: space-between;
-    margin:20px;
+    align-content: center;
+    
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width:70em;
 
 }
 .buttonselect{
-    background-color: goldenrod;
-   padding: 40px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+text-align: center;
+font-family: Gordita medium;
+border-radius: 5px;
+ width: 80px;
+ height: 80px;
 }
+.buttonselect{  display: flex;
+  justify-content: center;
+  align-items: center;}
+.containerPanel{
+    font-family: Gordita light;
+    flex-wrap: nowrap;
+	justify-content: center;
+    align-content: center;
+    display: flex;
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width:70em;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+.containerPanel a2{
+    margin-top: 20px;
+    font-family: Gordita medium;
+	text-align: center;
+	display: block;
+	font-size:30px;
+
+}
+.panel p {
+    padding: 20px;
+}
+
 .panel{
 
     text-align: center;
 }
-
-.displaynone{
-    display: none;
+.buttonselect:hover{
+    background-color: #e5e5e5;
+}
+.active{
+    background-color: #e5e5e5;
 }
 
 .displayblock{
