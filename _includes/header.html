@@ -1,3 +1,7 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+
+
 <div class="navbarTop">
 <div class="Navbar">
   <div class="Navbar__Link brand toggle border show" id="borderr">
@@ -11,16 +15,16 @@
 
  <div class="Navbar__Items Navbar__Items--right">
    <div class="Navbar__Link NavbarMenu">
-    <a href="{{ site.baseurl }}/"">Home</a>
+    <a href="{{ site.baseurl }}/" >Home</a>
    </div>
    <div class="Navbar__Link NavbarMenu">
     <a href="{{ site.baseurl }}/">About US</a>
    </div>
    <div class="Navbar__Link NavbarMenu">
-    <a href="{{ site.baseurl }}/pages/Services1">Services</a>
+    <a href="#goto">Services</a>
    </div>
    <div class="Navbar__Link NavbarMenu">
-    <a href="{{ site.baseurl }}/pages/Contact">Contact Us</a>
+    <a href="{{ site.baseurl }}/pages/Contact" >Contact Us</a>
    </div>
  </div>
 </div>

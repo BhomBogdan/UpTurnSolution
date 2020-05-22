@@ -1,24 +1,22 @@
-.ContainerS{
+//Introduction Service 
+
+.ContainerS-Introduction{
 width: 100%;
 padding: 50px;
 color : #646f79;
 background-color: white;
 }
 
-.flexContainerS{
+.flexContainerS-Introduction{
     flex: 1;
     font-family: Gordita Regular;
     margin:0 auto;
     max-width: calc(100% - 5em);
     width:70em;
-    
-
     display: flex;
-
     justify-content: center;
-
 }
-.ContainerSL{
+.ContainerSL-Introduction{
     
     flex: 1;
 display: flex;
@@ -28,12 +26,12 @@ flex-wrap: wrap;
     margin:20px;
     max-width: 600px;
 }
-.ContainerSL a2{
+.ContainerSL-Introduction a2{
     color:black;
     font-family: Gordita medium;
     font-size: 30px;
 }
-.ContainerSL p{
+.ContainerSL-Introduction p{
     max-width: 450px;
     font-size: 16px;
     font-family: Gordita light;
@@ -46,27 +44,13 @@ flex-wrap: wrap;
     flex: 1;
 
 }
-.imgservice>img{
-    max-width:200px;
-    min-width: 200px;
-}
 
-
-
-.flexContainerS2{
-    padding: 20px;
-    margin:0 auto;
-    max-width: calc(100% - 5em);
-    width:70em;
-    margin-bottom: 60px;
-    margin-top:60px;
-    font-family: Gordita light;
-}
 
 .buttonC{
     font-size:18px;
     max-width: 180px;
-    background:  #ff9900;
+    min-width: 180px;
+    background:  #25aa9f;
     border-radius: 11px;
     padding:  10px 10px;
     color:  #ffffff;
@@ -75,46 +59,44 @@ flex-wrap: wrap;
     font-family:Gordita Medium;
   }
 
-.ContainerSL2 p{
-    color:#646f79;
-    font-weight: bold;
-    text-align: center;
-    font-size: 16px;
 
+.imgservice>img{
+    max-width:200px;
+    min-width: 200px;
 }
 
-//Third section
-
-.MoreInfoS2{
+//Normal Service( LEFT: Image , RIGHT: text )
+.MoreInfoServicesImageText{
     width: 100%;
-padding: 50px;
-color : #646f79;
-background-color: white;
+    padding: 50px;
+    color : #646f79;
+    background-color: white;
 }
-.flexContainerS3{
+
+.flexContainerImageText-normal{
     flex: 1;
     font-family: Gordita Regular;
     margin:0 auto;
     max-width: calc(100% - 5em);
     width:70em;
-    
-
     display: flex;
-
     justify-content: center;
 }
-.ContainerSL3{
+
+.ContainerServiceImage{
     align-items: center;
     display: flex;
     justify-content: center;
     flex: 1;
     min-width: 300px;
 }
-.ContainerSL3>img{
+
+.ContainerServiceImage>img{
     max-width:200px;
     min-width: 200px;
 }
-.ContainerSR3{
+
+.ContainerServiceText{
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +105,47 @@ background-color: white;
         margin:20px;
         max-width: 600px;
 }
-.ContainerSR3 a1{
+.ContainerServiceText a1{
     font-size:20px;
     font-family: Gordita medium;
 }
+.ContainerServiceText ul{
+    font-family: Gordita light;
+
+}
+//Reversed Service( LEFT: Text , RIGHT: Image )
+
+.flexContainerImageText-reversed{
+    flex: 1;
+    font-family: Gordita Regular;
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width:70em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+
+
+
+//RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+  
+    .flexContainerS-Introduction{
+        flex-direction: column;
+        padding: 0px;
+        
+    }
+    .ContainerSL-Introduction{}
+
+    .ContainerS-Introduction{
+        padding: 5px;
+    }
+  
+
+    //text SOLO section 
+    
+  }
+  

@@ -1,12 +1,17 @@
-<div>
-        <div class="tittleP"></div>
+<div class="ContainerProcess">
+        <div class="tittleP"><a2>Our process</a2></div>
     <div class="flexbbutton" id="buttons1">
     
         <div class="buttonselect active" id="1" >1</div>
+        <div class="line" id="colorL1"></div>
         <div class="buttonselect" id="2" >2</div>
+        <div class="line" id="colorL2"></div>
         <div class="buttonselect" id="3" >3</div>
+        <div class="line" id="colorL3"></div>
         <div class="buttonselect" id="4" >4</div>
+        <div class="line" id="colorL4"></div>
         <div class="buttonselect" id="5" >5</div>
+        <div class="line" id="colorL5"></div>
         <div class="buttonselect" id="6" >6</div>
 
        
@@ -49,7 +54,10 @@
 
     //hide all divs 
     Hidepale();
-
+    asdf = 0;
+    hodor = 0; 
+    logf = 0;
+    fromhere = 0;
     //show first div 
     document.getElementById('D1').style.display = 'block';
  
@@ -62,20 +70,42 @@ for (var i = 0; i < buttonS.length; i++) {
     buttonS[i].addEventListener('click',redirect,false);
 }
 function redirect(){
+
+
         //hide all divs 
     Hidepale();
     var activebutton = header1.getElementsByClassName("active");
   activebutton[0].className = activebutton[0].className.replace(" active", "");
   this.className += " active";
 
-
-	replace = this.id;
+  replace = this.id;
     document.getElementById('D'+ replace).style.display = 'block';
-    
+
+        fromhere = this.id;
+
+        for(asdf = fromhere - 1 ; asdf > 0 ; asdf--){
+            
+            document.getElementById("colorL" + asdf).style.backgroundColor = "white";
+            if(asdf !=fromhere)
+            document.getElementById(asdf).style.backgroundColor = "white";
+            
+        }
+        for(asdf = fromhere  ; asdf <= 6 ; asdf++){
+            document.getElementById("colorL" + asdf).style.backgroundColor = "#e5e5e5";
+            document.getElementById(asdf).removeAttribute("style");
+
+            }
+        
+
+
+
+
+        
     
 }
     //function to hide all divs 
     function Hidepale() {
+    
         document.getElementById('D1').style.display = 'none';
         document.getElementById('D2').style.display = 'none';
         document.getElementById('D3').style.display = 'none';

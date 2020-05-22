@@ -1,7 +1,9 @@
 .Gradient{
   
   width: 100%;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+background-color: white;
+
+  
 }
 .ContainerG{
   display: block;
@@ -20,8 +22,9 @@
 }
 .buttonG{
   font-size:16px;
-  background:  #ff9900;
+  background:  #25aa9f;
   border-radius: 11px;
+  min-width: 100px;
   padding:  10px 35px;
   color:  #ffffff;
   display:  inline-block;

@@ -24,7 +24,7 @@
   font-family: sans-serif;
 }
 .brand a {
-  color: black;
+  color: #25aa9f;
   font-family: Gordita Medium;
   font-size: 18px;
   text-decoration: none;
@@ -83,7 +83,9 @@ border-radius: 4px;
   background-color: #646f79;
   height: 4px;
 }
-
+.current{
+  background-color: red;
+}
 @media only screen and (max-width: 868px) {
   .Navbar__Items,
   .Navbar {

@@ -34,7 +34,7 @@
 .linkS{
 	vertical-align: bottom;
 		font-size:16px;
-		background:  #8DB1AB;
+		background:  #25aa9f;
 		border-radius: 9px;
 		padding:  4px 10px;
 		margin-bottom: 10px;
@@ -45,13 +45,15 @@
 
 }
 .linkS a{
-	
+	text-decoration: none;
+    display: block;
 	font-size: 10px;
+	color:white;
 }
 .services a{
 	padding-left:5px;
 	padding-right:5px;
-	margin-top: 10px;
+	
 	font-size:16px;
 	text-align: center;
 	font-family:Gordita Medium;
