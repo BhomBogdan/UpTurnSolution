@@ -10,10 +10,13 @@
 
   margin-left: 64px;
 }
-.brand a {
-  padding: 20px;
+.brand img{width: 100px;
+  vertical-align: middle;
+margin-left: 100px;
 }
+
 .Navbar {
+  align-items: center;
   margin: 0 auto;
   max-width: calc(100% - 5em);
   width: 90em;
