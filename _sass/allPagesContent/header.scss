@@ -1,5 +1,12 @@
-.navbarTop {
+.containerNav{
   width: 100%;
+  background-color: white;
+}
+.navbarTop {
+  margin:0 auto;
+  max-width: calc(100% - 5em);
+  width: 100em;
+
   background-color: white;
 }
 .general {
@@ -12,7 +19,7 @@
 }
 .brand img{width: 100px;
   vertical-align: middle;
-margin-left: 100px;
+
 }
 
 .Navbar {
@@ -116,11 +123,17 @@ border-radius: 4px;
     display: flex;
   }
   .Navbar__Link-toggle {
+    right:20px;
     align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;
     
+  }
+  .Navbar__Link:hover{
+    background-color:#f5f5f5;
+    border-radius: 5px;
+
   }
   #Davai{
     border-bottom:none;
