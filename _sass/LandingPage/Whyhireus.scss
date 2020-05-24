@@ -48,11 +48,25 @@
   display: flex;
   justify-content: center;
   flex: 1;
-  min-width: 300px;
+  min-width: 200px;
 
 }
 
 .WhyHireImage img{
   max-width:200px;
-  min-width: 200px;
+  min-width: 100px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .WhyHire-Frontpage{
+    padding: 0px;
+  }
+  .FlexWhyHire-Frontpage{
+    flex-direction: column;
+    width: 100%;
+
+ 
+    max-width: 100%;
+  }
 }

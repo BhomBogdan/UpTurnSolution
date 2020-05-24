@@ -10,7 +10,7 @@
   background-color: white;
 }
 .general {
-  overflow: hidden;
+
 }
 .brand {
   display: block;
@@ -81,6 +81,19 @@ border-radius: 4px;
 }
 .Navbar__Link-toggle {
   display: none;
+}
+//test
+.wrapper{
+  overflow: visible;
+}
+.floatparrent{
+
+  position: relative;
+}
+.floattest{
+  
+  position: absolute;
+
 }
 .Navbar__Items {
   height: 100%;
