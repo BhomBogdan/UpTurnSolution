@@ -64,7 +64,26 @@ flex-wrap: wrap;
     max-width:200px;
     min-width: 200px;
 }
+//More info text 
 
+.moreInfoServicesText{
+    width: 100%;
+  
+}
+
+.ContainerInfoText{
+    font-family:gordita light;
+    padding: 10px;
+    font-size: 15px;
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 70em;
+    
+    
+}
+.ContainerInfoText p{
+    padding: 20px;
+}
 //Normal Service( LEFT: Image , RIGHT: text )
 .MoreInfoServicesImageText{
     width: 100%;
@@ -125,8 +144,12 @@ flex-wrap: wrap;
     justify-content: center;
     flex-direction: row-reverse;
 }
+//CUSTOM
 
-
+//Services 2 
+.customTS2{
+    
+}
 
 
 //RESPONSIVE
