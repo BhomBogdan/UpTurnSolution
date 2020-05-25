@@ -1,12 +1,12 @@
 footer {
-  color: white;
+  color: #646f79;
   text-align: center;
   margin-top: auto;
   background-color: #222b37;
 }
 
-footer a {
-  color: white;
+footer a2{
+  color: #646f79;
   font-weight: bold;
   text-decoration: none;
 }
@@ -17,7 +17,7 @@ footer a {
 .SocialList h6 {
   border-bottom: 3px solid white;
   font-family: Gordita medium;
-  font-size: 15px;
+  font-size: 14px;
   margin: 10px;
 }
 .SocialList img {
@@ -29,32 +29,54 @@ footer a {
   text-align: left;
 }
 .borderTittle {
+  padding-left: 10px;
+  width: 50%;
   border-bottom: 3px solid white;
 }
 .textresume {
   text-align: left;
   margin: 10px;
-  font-size: 14px;
+  font-size: 13px;
   font-family: Gordita medium;
 }
 .resumefooter {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+
   justify-content: center;
-  align-items: baseline;
-  align-content: stretch;
-  height: 100%;
-  background-color: #25aa9f;
+
+
+
+  
+  background-color: #e0f3f2;
 }
 .bottomfooter {
   height: 50px;
-  background-color: #1d887f;
+  background-color:#53bcb7;
 }
 .SocialList {
   margin-top: 20px;
 }
 .social {
+}
+.logoimg img{
+
+  width:100px;
+}
+.flexS{
+
+  align-content: flex-start;
+  width:300px;
+
+  justify-content: center;
+  display: flex;
+  
+}
+.flexS a{
+  color:#646f79;
+  font-family: Gordita light;
+  font-weight: normal;
+  
 }
 .SmallContact {
   display: flex;
